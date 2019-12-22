@@ -42,7 +42,7 @@ resolveAvatarUrl : Maybe String -> String
 resolveAvatarUrl maybeUrl =
     case    maybeUrl of
         Nothing ->
-            ""
+            "https://static.productionready.io/images/smiley-cyrus.jpg"
         Just url ->
             url
     {- 👉 TODO #1 of 2: return the user's avatar from maybeUrl, if maybeUrl actually
