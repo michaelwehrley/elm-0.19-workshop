@@ -1,4 +1,9 @@
 # Part 5
+Start server:
+```bash
+$ cd ~/intro/server
+$ npm run start --ignore-scripts=false
+```
 
 This time, we'll still be *building* `src/Main.elm`, but a few things will be different:
 
